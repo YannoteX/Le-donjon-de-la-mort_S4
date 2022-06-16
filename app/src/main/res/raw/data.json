@@ -4,7 +4,7 @@
 
      {
       "id": "CARD_CORRIDOR",
-      "image": "couloir_final.png",
+      "image": "couloir_final",
       "text" : "Vous arrivez devant un grand couloir sombre, eclaire par la faible lueur d'une torche. Intrepide comme vous etes, l'obscurite ne vous repousse point et vous continuez votre aventure. Le couloir se separe alors en deux :",
       "type" : "generic",
       "options" : {
@@ -12,7 +12,7 @@
         "B_1" : {
 
           "text" : "Tourner a gauche",
-          "valuesToModify" : {"EnnemyHealth": 200},
+          "valuesToModify" : {},
           "nextCard" : ["generic", "combat"],
           "needed" : [],
           "endProgress" : {
@@ -23,7 +23,7 @@
 
         "B_2": {
           "text" : "Tourner a droite",
-          "valuesToModify" : {"EnnemyHealth": 200},
+          "valuesToModify" : {},
           "nextCard" : ["generic", "combat"],
           "needed": [],
           "endProgress" : {
@@ -43,7 +43,7 @@
      {
 
       "id": "CARD_ENEMY",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "Vous avancez dans le donjon lorsque soudain : 'MEURT !', crie un dangeureux vagabond affame. Vous esquivez de justesse et à peine avez vous eu le temps de sortir votre epee de son fourreau que votre assaillant se retourne, et se prepare a un rude combat.",
       "type" : "combat",
       "options" : {
@@ -52,8 +52,9 @@
 
           "text" : "Suivant",
           "valuesToModify" : {
+            "enemyHealth": 300
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -72,7 +73,7 @@
 
      {
       "id": "CARD_ENEMY_COMBAT",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "Vous percevez le regard percant du vagabond au travers de son heaume. Vous vous demandez quoi faire :",
       "type" : "none",
       "options" : {
@@ -122,7 +123,7 @@
 
      {
       "id": "CARD_PLAYER_ATTACK",
-      "image": "attaque_final.png",
+      "image": "attaque_final",
       "text" : "Vous brandissez votre epee et assenez un coup violent.",
       "type" : "none",
       "options" : {
@@ -151,7 +152,7 @@
 
      {
       "id": "CARD_PLAYER_DEFENSE",
-      "image": "defense_final.png",
+      "image": "defense_final",
       "text" : "Vous levez votre bouclier et priez pour qu'il vous protege.",
       "type" : "none",
       "options" : {
@@ -180,7 +181,7 @@
 
      {
       "id": "CARD_PLAYER_HEAL",
-      "image": "defense_final.png",
+      "image": "defense_final",
       "text" : "Grâce à la magie du scénario, vous sortez une pomme de votre poche et en croquez un morceau.",
       "type" : "none",
       "options" : {
@@ -191,7 +192,7 @@
           "valuesToModify" : {
             "PlayerHealth": 50
           },
-            "nextCard" : ["CARD_ENNEMY_ATTACK"],
+            "nextCard" : ["CARD_ENEMY_ATTACK"],
           "needed": [],
           "endProgress" : {
           }
@@ -210,7 +211,7 @@
 
      {
       "id": "CARD_PLAYER_RANOFF",
-      "image": "defense_final.png",
+      "image": "defense_final",
       "text" : "Ne pouvant parvenir a bout de votre adversaire, vous preferez fuir afin de sauver votre peau.",
       "type" : "none",
       "options" : {
@@ -239,7 +240,7 @@
 
      {
       "id": "CARD_PLAYER_ATTACK_SUCCESS",
-      "image": "attaque_final.png",
+      "image": "attaque_final",
       "text" : "TOUCHE ! Votre adversaire n'en ressortira pas de marbre.",
       "type" : "none",
       "options" : {
@@ -250,7 +251,7 @@
           "valuesToModify" : {
             "EnemyHealth": -50
           },
-          "nextCard" : ["CARD_ENNEMY_ATTACK"],
+          "nextCard" : ["CARD_ENEMY_ATTACK"],
           "needed": [],
           "endProgress" : {
           }
@@ -269,7 +270,7 @@
 
      {
       "id": "CARD_PLAYER_DEFENSE_SUCCESS",
-      "image": "defense_final.png",
+      "image": "defense_final",
       "text" : "La meilleure attaque est parfois la defense. Le vagabond se heurte a votre bouclier avant de se ressaisir.",
       "type" : "none",
       "options" : {
@@ -279,7 +280,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -298,7 +299,7 @@
 
      {
       "id": "CARD_PLAYER_DEFENSE_FAILED",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "Pas de chance. Votre adversaire parvient a vous toucher. Vous perdez un peu de vie.",
       "type" : "none",
       "options" : {
@@ -309,7 +310,7 @@
           "valuesToModify" : {
             "playerHealth": -20
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -328,7 +329,7 @@
 
      {
       "id": "CARD_ENEMY_ATTACK",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "Le vagabond affame vous saute dessus telle une bete sauvage assoifee de sang.",
       "type" : "none",
       "options" : {
@@ -338,7 +339,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENNEMY_ATTACK_SUCCESS","CARD_PLAYER_DODGE","CARD_ENNEMY_ATTACK_SUCCESS"],
+          "nextCard" : ["CARD_ENEMY_ATTACK_SUCCESS","CARD_PLAYER_DODGE","CARD_ENEMY_ATTACK_SUCCESS"],
           "needed": [],
           "endProgress" : {
           }
@@ -357,7 +358,7 @@
 
      {
       "id": "CARD_ENEMY_ATTACK_SUCCESS",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "AIE ! Vous sentez presque vos os craquer sous le coup de l'ennemi. Vous ne pouvez rien faire et subissez des degats.",
       "type" : "none",
       "options" : {
@@ -368,7 +369,7 @@
           "valuesToModify" : {
             "playerHealth": -50
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -387,7 +388,7 @@
 
      {
       "id": "CARD_ENEMY_PARADE",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "CLING ! Ainsi rugi le bruit du metal sur le bouclier ennemi. Vous reprenez une position defensive.",
       "type" : "none",
       "options" : {
@@ -397,7 +398,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -416,7 +417,7 @@
 
      {
       "id": "CARD_ENEMY_DODGE",
-      "image": "rencontrer_ennemi_final.png",
+      "image": "rencontrer_ennemi_final",
       "text" : "L'ennemi se penche vers l'arriere et frole votre epee de peu.",
       "type" : "none",
       "options" : {
@@ -426,7 +427,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -445,7 +446,7 @@
 
      {
       "id": "CARD_PLAYER_DODGE",
-      "image": "attaque_final.png",
+      "image": "attaque_final",
       "text" : "Vous esquivez de justesse la lourde epee de votre adversaire. Il s'en ai fallut de peu.",
       "type" : "none",
       "options" : {
@@ -455,7 +456,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENNEMY_COMBAT"],
+          "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -474,7 +475,7 @@
 
      {
       "id": "CARD_ENEMY_DEFEATED",
-      "image": "attaque_final.png",
+      "image": "attaque_final",
       "text" : "Vous avez triomphé de l'ennemi, hourra !!!! Vous empochez fierement votre recompense.",
       "type" : "none",
       "options" : {
@@ -505,7 +506,7 @@
 
      {
       "id": "CARD_ENIGMA_CORRECT",
-      "image": "enigme_final.png",
+      "image": "enigme_final",
       "text": "'Bien joue !', s'exclame l'homme etrange, 'Vous meritez amplement votre reputation !'. Vous recevez un peu de soin.",
       "type": "none",
       "options": {
@@ -537,7 +538,7 @@
 
     {
       "id": "CARD_ENIGMA_WRONG",
-      "image": "enigme_final.png",
+      "image": "enigme_final",
       "text": "L'homme etrange prend une mine condescendante : 'Vous me decevez fortement...'.",
       "type": "none",
       "options": {
@@ -568,7 +569,7 @@
 
     {
       "id": "CARD_ENIGMA_1",
-      "image": "enigme_final.png",
+      "image": "enigme_final",
       "text": "Vous tombez nez-a-nez avec un homme etrange. Celui s'arrete et vous regarde attentivement : 'Dites-moi jeune aventurier, un lapin fait naitre 7 autres en une semaine. Supposons que les lapins se reproduisent une fois par semaine le lundi matin et que leurs croissance se termine le dimanche soir, au bout 5 semaines, combien de lapins y'aura t-il :'",
       "type": "none",
       "options": {
@@ -619,7 +620,7 @@
     "slugEnd": 0,
     "happyEnd": 0,
     "fameEnd":0,
-    "ennemyHealth": 300,
+    "enemyHealth": 0,
     "playerHealth": 300,
     "gold": 0,
     "attack":20,
