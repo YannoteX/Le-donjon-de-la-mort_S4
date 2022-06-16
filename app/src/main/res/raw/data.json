@@ -625,5 +625,8 @@
     "attack":20,
     "defense": 20
 
+  },
+  "data" : {
+
   }
 }
