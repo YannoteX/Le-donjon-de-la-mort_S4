@@ -3,6 +3,8 @@ package modele;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.Locale;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.ArrayList;
 
@@ -64,6 +66,30 @@ public class Modele {
 
     public void sumValue(String name, int secondValue) throws JSONException {
         this.database.put(name, this.database.getInt(name) + secondValue);
+    }
+
+    public JSONObject getPlayerStat() throws JSONException{
+        JSONObject playerStat = new JSONObject();
+        playerStat.put("playerHealth", this.getValue("playerHealth"));
+        playerStat.put("attack", this.getValue("attack"));
+        playerStat.put("defense", this.getValue("defense"));
+        playerStat.put("gold", this.getValue("gold"));
+
+        return playerStat;
+    }
+
+    public JSONObject SendInfo(String cardToGet) throws JSONException{
+        JSONObject viewInfo = new JSONObject();
+        if (cardToGet.toUpperCase().equals(cardToGet)){
+            viewInfo.put("card", this.getCardById(cardToGet));
+        }
+        else{
+            viewInfo.put("card", this.getCardByType(cardToGet));
+        }
+
+        viewInfo.put("player", this.getPlayerStat());
+
+        return viewInfo;
     }
 
 }
