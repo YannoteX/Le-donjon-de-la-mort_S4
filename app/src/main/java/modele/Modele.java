@@ -14,7 +14,7 @@ public class Modele {
 
     public Modele(String JSONString) throws JSONException {
         this.database = new JSONObject(JSONString);
-        this.cards = new JSONArray(database.getJSONObject("datas").getJSONArray("cards"));
+        this.cards = database.getJSONObject("datas").getJSONArray("cards");
     }
 
     public JSONObject getCardById(String id){
