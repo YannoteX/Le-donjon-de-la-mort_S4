@@ -12,7 +12,7 @@
         "B_1" : {
 
           "text" : "Tourner a gauche",
-          "valuesToModify" : {},
+          "valuesToModify" : {"EnnemyHealth": 200},
           "nextCard" : ["generic", "combat"],
           "needed" : [],
           "endProgress" : {
@@ -23,7 +23,7 @@
 
         "B_2": {
           "text" : "Tourner a droite",
-          "valuesToModify" : {},
+          "valuesToModify" : {"EnnemyHealth": 200},
           "nextCard" : ["generic", "combat"],
           "needed": [],
           "endProgress" : {
@@ -52,9 +52,8 @@
 
           "text" : "Suivant",
           "valuesToModify" : {
-            "enemyHealth": 300
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -192,7 +191,7 @@
           "valuesToModify" : {
             "PlayerHealth": 50
           },
-            "nextCard" : ["CARD_ENEMY_ATTACK"],
+            "nextCard" : ["CARD_ENNEMY_ATTACK"],
           "needed": [],
           "endProgress" : {
           }
@@ -251,7 +250,7 @@
           "valuesToModify" : {
             "EnemyHealth": -50
           },
-          "nextCard" : ["CARD_ENEMY_ATTACK"],
+          "nextCard" : ["CARD_ENNEMY_ATTACK"],
           "needed": [],
           "endProgress" : {
           }
@@ -280,7 +279,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -310,7 +309,7 @@
           "valuesToModify" : {
             "playerHealth": -20
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -339,7 +338,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_ATTACK_SUCCESS","CARD_PLAYER_DODGE","CARD_ENEMY_ATTACK_SUCCESS"],
+          "nextCard" : ["CARD_ENNEMY_ATTACK_SUCCESS","CARD_PLAYER_DODGE","CARD_ENNEMY_ATTACK_SUCCESS"],
           "needed": [],
           "endProgress" : {
           }
@@ -369,7 +368,7 @@
           "valuesToModify" : {
             "playerHealth": -50
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -398,7 +397,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -427,7 +426,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -456,7 +455,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_COMBAT"],
+          "nextCard" : ["CARD_ENNEMY_COMBAT"],
           "needed": [],
           "endProgress" : {
           }
@@ -620,7 +619,7 @@
     "slugEnd": 0,
     "happyEnd": 0,
     "fameEnd":0,
-    "enemyHealth": 300,
+    "ennemyHealth": 300,
     "playerHealth": 300,
     "gold": 0,
     "attack":20,

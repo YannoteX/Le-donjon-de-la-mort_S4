@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\raw_data.json.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\raw\\data.json"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxhdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_entrer_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\entrer_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxxhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxxhdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_fond_acceuil.jpg.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\fond_acceuil.jpg"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_bouclier_maudit_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\bouclier_maudit_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\layout_activity_jeu_principal.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\layout\\activity_jeu_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxxhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxxhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_fouiller.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\fouiller.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_enigme_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\enigme_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_sale_vide_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\sale_vide_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_cadavre_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\cadavre_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xhdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xhdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_couloir_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\couloir_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_bouclier_legendaire.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\bouclier_legendaire.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_attaque_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\attaque_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-pngs-20:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_coffre_ferme_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\coffre_ferme_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-mdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-mdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxxhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxxhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\font_cinzel_decorative_bold.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\font\\cinzel_decorative_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_dehors_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\dehors_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_coeur.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\coeur.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-anydpi-v26_mon_icone_round.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-anydpi-v26\\mon_icone_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_gold_ingot.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\gold_ingot.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_defense_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\defense_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xhdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xhdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_coffre_ouvert_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\coffre_ouvert_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_bouclier_classique_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\bouclier_classique_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_epee_maudite_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\epee_maudite_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_rencontrer_ennemi_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\rencontrer_ennemi_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_fond.jpg.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\fond.jpg"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_epee_legendaire_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\epee_legendaire_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_porte_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\porte_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_epee_classique_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\epee_classique_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xhdpi_mon_icone_foreground.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xhdpi\\mon_icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_vendeur_etrange_final.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\vendeur_etrange_final.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable_fond_texte.PNG.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable\\fond_texte.PNG"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "com.example.projet_s4.app-merged_res-25:/layout_activity_jeu_principal.xml.flat",
+        "source": "com.example.projet_s4.app-main-27:/layout/activity_jeu_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-anydpi-v26_mon_icone.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-anydpi-v26\\mon_icone.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\font_akronim.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\font\\akronim.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-mdpi_mon_icone_round.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-mdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-mdpi_mon_icone.png.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-mdpi\\mon_icone.png"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    }
+]

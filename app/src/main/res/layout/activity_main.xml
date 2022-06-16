@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#424242"
+    android:background="@drawable/fond_acceuil"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -23,15 +24,16 @@
 
     <Button
         android:id="@+id/play_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="122dp"
+        android:layout_height="74dp"
         android:layout_marginStart="158dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="165dp"
-        android:layout_marginBottom="259dp"
+        android:layout_marginBottom="250dp"
         android:text="Play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
