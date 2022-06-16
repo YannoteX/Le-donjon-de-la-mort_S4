@@ -13,8 +13,9 @@ public class Modele {
     private JSONObject database;
 
     public Modele(String JSONString) throws JSONException {
-        this.database = new JSONObject(JSONString);
-        this.cards = database.getJSONObject("datas").getJSONArray("cards");
+        JSONObject json = new JSONObject(JSONString);
+        this.database = json.getJSONObject("datas");
+        this.cards = database.getJSONArray("cards");
     }
 
     public JSONObject getCardById(String id){
@@ -22,9 +23,9 @@ public class Modele {
         boolean found = false ;
         JSONObject card = new JSONObject();
 
-        while (i < cards.length() && found == false){
+        while (i < cards.length() && !found){
             try {
-                if (cards.getJSONObject(i).get("id") == id){
+                if (cards.getJSONObject(i).getString("id").equals(id)){
                     card = cards.getJSONObject(i);
                     found = true;
                 }
@@ -33,23 +34,21 @@ public class Modele {
             }
             i++;
         }
-
         return card;
     }
 
     public JSONObject getCardByType(String type){
-        ArrayList<JSONObject> candidates = new ArrayList<JSONObject>();
+        ArrayList<JSONObject> candidates = new ArrayList<>();
         int i = 0;
 
-        while (i < candidates.size()){
+        for (i = 0 ; i < cards.length() ; i++){
             try {
-                if (cards.getJSONObject(i).get("type") == type){
+                if (cards.getJSONObject(i).get("type").equals(type)){
                     candidates.add(cards.getJSONObject(i));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            i++;
         }
 
         return candidates.get(ThreadLocalRandom.current().nextInt(candidates.size()));
@@ -61,6 +60,10 @@ public class Modele {
 
     public void setValue(String name, Object value) throws JSONException {
         this.database.put(name, value);
+    }
+
+    public void sumValue(String name, int secondValue) throws JSONException {
+        this.database.put(name, this.database.getInt(name) + secondValue);
     }
 
 }
