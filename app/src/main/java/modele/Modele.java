@@ -87,7 +87,7 @@ public class Modele {
             viewInfo.put("card", this.getCardByType(cardToGet));
         }
 
-        viewInfo.put("plyer", this.getPlayerStat());
+        viewInfo.put("player", this.getPlayerStat());
 
         return viewInfo;
     }
