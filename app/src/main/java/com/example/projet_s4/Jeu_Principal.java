@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.util.Scanner;
 import modele.Modele;
 
+
 public class Jeu_Principal extends AppCompatActivity {
 
     @Override
@@ -19,6 +20,7 @@ public class Jeu_Principal extends AppCompatActivity {
         InputStream in = getResources().openRawResource(R.raw.data);
         try {
             Modele modele1 = new Modele(new Scanner(in).useDelimiter("\\A").next());
+            Controleur controleur1 = new Controleur(modele1);
         } catch (JSONException e) {
             e.printStackTrace();
         }
