@@ -10,28 +10,33 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="8dp"
         android:background="@color/blue1"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:id="@+id/health"
             android:layout_width="45dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="35dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="0dp"
             app:srcCompat="@drawable/coeur" />
 
         <TextView
-            android:id="@+id/pv"
-            android:layout_width="20dp"
+            android:id="@+id/hp"
+            android:layout_width="40sp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="0dp"
-            android:text="0"
+            android:layout_weight="1"
+            android:text="500"
             android:textColor="@color/white"
-            android:textSize="34sp" />
+            android:textSize="20sp" />
 
         <ImageView
             android:layout_width="45dp"
@@ -41,14 +46,14 @@
             app:srcCompat="@drawable/epee_classique_final" />
 
         <TextView
-            android:layout_width="20dp"
+            android:id="@+id/attack"
+            android:layout_width="40sp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="0dp"
-            android:text="0"
+            android:text="50"
             android:textColor="@color/white"
-            android:textSize="34sp"
-            />
+            android:textSize="20sp" />
 
         <ImageView
             android:layout_width="45dp"
@@ -58,14 +63,14 @@
             app:srcCompat="@drawable/bouclier_classique_final" />
 
         <TextView
-            android:layout_width="20dp"
+            android:id="@+id/defense"
+            android:layout_width="40sp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="0dp"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="34sp"
-            />
+            android:textSize="20sp" />
 
         <ImageView
             android:layout_width="45dp"
@@ -75,17 +80,14 @@
             app:srcCompat="@drawable/gold_ingot" />
 
         <TextView
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
+            android:id="@+id/gold"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="0dp"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="34sp"
-            />
-
-
-
+            android:textSize="20sp" />
 
 
     </LinearLayout>
@@ -160,23 +162,26 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="419dp"
+        android:layout_width="0dp"
         android:layout_height="109dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
         android:layout_marginBottom="10dp"
+        android:autoSizeMaxTextSize="13dp"
+        android:autoSizeMinTextSize="7dp"
+        android:autoSizeTextType="uniform"
         android:background="@drawable/fond_texte"
         android:fontFamily="@font/cinzel_decorative_bold"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="coucou"
-        android:autoSizeMinTextSize="7dp"
-        android:autoSizeMaxTextSize="11dp"
-        android:autoSizeTextType="uniform"
+
         android:textAlignment="center"
         android:textColor="@color/black"
-
         app:layout_constraintBottom_toTopOf="@+id/choix1"
-        tools:ignore="MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteX="-8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

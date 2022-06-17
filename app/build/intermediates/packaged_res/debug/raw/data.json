@@ -14,7 +14,7 @@
             "text" : "Entrer dans le donjon",
             "valuesToModify" : {
             },
-            "nextCard" : ["generic"],
+            "nextCard" : ["CARD_ENEMY_DEFEATED"],
             "needed": [],
             "endProgress" : {
             }
@@ -219,7 +219,7 @@
 
           "text" : "Suivant",
           "valuesToModify" : {
-            "PlayerHealth": 50
+            "playerHealth": 50
           },
             "nextCard" : ["CARD_ENEMY_ATTACK"],
           "needed": [],

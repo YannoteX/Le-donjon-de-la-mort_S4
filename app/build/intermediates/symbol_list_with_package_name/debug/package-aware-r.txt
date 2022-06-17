@@ -2630,6 +2630,7 @@ id anticipate
 id arc
 id asConfigured
 id async
+id attack
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -2697,6 +2698,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id defense
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2757,6 +2759,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id gold
 id gone
 id graph
 id graph_wrap
@@ -2765,11 +2768,13 @@ id grouping
 id groups
 id guideline
 id header_title
+id health
 id hideable
 id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hp
 id icon
 id icon_group
 id ifRoom
@@ -2900,7 +2905,6 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
-id pv
 id radio
 id ratio
 id rectangles
