@@ -219,10 +219,11 @@ public class Jeu_Principal extends AppCompatActivity {
         updateStats();
 
 
-
-        try {
-            if(currentStats.getInt("playerHealth") <= 0){
-                System.out.println("T MORT!!!!!!!!!!!!!!!!!!!!!!!!!!!______________");
+                                                                                                        //fonction à supprimer ou modifier
+        //-------------------------------------------------------------------------------------------------------------------------------<=  /!\
+        try {                                                                                                                               //!\
+            if(currentStats.getInt("playerHealth") <= 0){                                                                             //!\
+                System.out.println("T MORT!!!!!!!!!!!!!!!!!!!!!!!!!!!______________");                                                      //!\
                 Intent otherActivity= new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(otherActivity);
             }

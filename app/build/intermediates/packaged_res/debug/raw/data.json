@@ -14,7 +14,7 @@
             "text" : "Entrer dans le donjon",
             "valuesToModify" : {
             },
-            "nextCard" : ["CARD_ENEMY_DEFEATED"],
+            "nextCard" : ["CARD_CORRIDOR"],
             "needed": [],
             "endProgress" : {
             }
