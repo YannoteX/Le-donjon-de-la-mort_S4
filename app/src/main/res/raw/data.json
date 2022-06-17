@@ -650,7 +650,7 @@
     "happyEnd": 0,
     "fameEnd":0,
     "enemyHealth": 300,
-    "playerHealth": 100,
+    "playerHealth": 300,
     "gold": 0,
     "attack":20,
     "defense": 20
