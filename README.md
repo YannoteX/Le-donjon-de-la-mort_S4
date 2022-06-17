@@ -1,5 +1,9 @@
 # Le dongeon de la mort
 
+## Recommended settings ##
+  Adnroid 11 avec écran de 6 pouces (pixel 5 par exemple)
+  
+
 ## Principe
 
   Le jeu prend place lorsqu'un aventurier, fauché mais plein de rêve, s'engouffre dans un terrible dongeon pour sauver la princesse des griffes du redoutable dragon. Nombreux sont les periples qu'il devra affronter afin d'en venir à bout. Heureusement, vous aiderez l'aventurier à prendre les bonnes décisions afin de pouvoir mener notre héros à sa dulcinée... À moins que vous n'en décidiez autrement.
