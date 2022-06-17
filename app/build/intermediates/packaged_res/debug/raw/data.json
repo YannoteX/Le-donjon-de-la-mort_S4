@@ -162,7 +162,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_ENEMY_DODGE", "CARD_ENEMY_PARADE","CARD_PLAYER_ATTACK_SUCCESS"],
+          "nextCard" : ["CARD_ENEMY_DODGE", "CARD_ENEMY_PARADE","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS","CARD_PLAYER_ATTACK_SUCCESS"],
           "needed": [],
           "endProgress" : {
           }
@@ -368,7 +368,7 @@
           "text" : "Suivant",
           "valuesToModify" : {
           },
-          "nextCard" : ["CARD_ENEMY_ATTACK_SUCCESS","CARD_PLAYER_DODGE","CARD_ENEMY_ATTACK_SUCCESS"],
+          "nextCard" : ["CARD_PLAYER_DODGE","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS","CARD_ENEMY_ATTACK_SUCCESS"],
           "needed": [],
           "endProgress" : {
           }
@@ -650,7 +650,7 @@
     "happyEnd": 0,
     "fameEnd":0,
     "enemyHealth": 300,
-    "playerHealth": 300,
+    "playerHealth": 100,
     "gold": 0,
     "attack":20,
     "defense": 20

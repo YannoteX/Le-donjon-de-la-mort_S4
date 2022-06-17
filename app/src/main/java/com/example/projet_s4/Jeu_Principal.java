@@ -1,6 +1,8 @@
 package com.example.projet_s4;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -214,11 +216,23 @@ public class Jeu_Principal extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        updateStats();
 
+
+
+        try {
+            if(currentStats.getInt("playerHealth") <= 0){
+                System.out.println("T MORT!!!!!!!!!!!!!!!!!!!!!!!!!!!______________");
+                Intent otherActivity= new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(otherActivity);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
 
         updateCard();
-        updateStats();
+
     }
 
 

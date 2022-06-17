@@ -2479,6 +2479,7 @@ int drawable entrer_final 0x7f080071
 int drawable epee_classique_final 0x7f080072
 int drawable epee_legendaire_final 0x7f080073
 int drawable epee_maudite_final 0x7f080074
+int drawable fin2 0x7f0800b6
 int drawable fond 0x7f080075
 int drawable fond_acceuil 0x7f080076
 int drawable fond_texte 0x7f080077
@@ -2546,6 +2547,7 @@ int drawable tooltip_frame_light 0x7f0800b4
 int drawable vendeur_etrange_final 0x7f0800b5
 int font akronim 0x7f090000
 int font cinzel_decorative_bold 0x7f090001
+int font creepster 0x7f090002
 int id ALT 0x7f0a0000
 int id BOTTOM_END 0x7f0a0001
 int id BOTTOM_START 0x7f0a0002
@@ -2907,6 +2909,7 @@ int id progress_horizontal 0x7f0a0165
 int id radio 0x7f0a0166
 int id ratio 0x7f0a0167
 int id rectangles 0x7f0a0168
+int id restart 0x7f0a01f6
 int id reverseSawtooth 0x7f0a0169
 int id right 0x7f0a016a
 int id rightToLeft 0x7f0a016b
@@ -3000,6 +3003,7 @@ int id textSpacerNoButtons 0x7f0a01c2
 int id textSpacerNoTitle 0x7f0a01c3
 int id textStart 0x7f0a01c4
 int id textTop 0x7f0a01c5
+int id textView 0x7f0a01f7
 int id textView2 0x7f0a01c6
 int id text_input_end_icon 0x7f0a01c7
 int id text_input_error_icon 0x7f0a01c8
@@ -3140,6 +3144,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0d0018
 int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
+int layout activity_fin 0x7f0d0078
 int layout activity_jeu_principal 0x7f0d001c
 int layout activity_main 0x7f0d001d
 int layout custom_dialog 0x7f0d001e

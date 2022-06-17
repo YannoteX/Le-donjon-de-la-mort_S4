@@ -30,6 +30,7 @@ drawable entrer_final
 drawable epee_classique_final
 drawable epee_legendaire_final
 drawable epee_maudite_final
+drawable fin2
 drawable fond
 drawable fond_acceuil
 drawable fond_texte
@@ -43,6 +44,7 @@ drawable sale_vide_final
 drawable vendeur_etrange_final
 font akronim
 font cinzel_decorative_bold
+font creepster
 id attack
 id choix1
 id choix2
@@ -56,7 +58,10 @@ id imageJeu
 id imageView
 id linearLayout
 id play_button
+id restart
+id textView
 id textView2
+layout activity_fin
 layout activity_jeu_principal
 layout activity_main
 mipmap ic_launcher
