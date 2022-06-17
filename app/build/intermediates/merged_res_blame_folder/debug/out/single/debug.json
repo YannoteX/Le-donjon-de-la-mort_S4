@@ -124,10 +124,6 @@
         "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\font\\cinzel_decorative_bold.xml"
     },
     {
-        "merged": "com.example.projet_s4.app-merged_res-25:/raw_data.json.flat",
-        "source": "com.example.projet_s4.app-main-27:/raw/data.json"
-    },
-    {
         "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\drawable-v24_dehors_final.png.flat",
         "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\drawable-v24\\dehors_final.png"
     },
@@ -230,6 +226,10 @@
     {
         "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-hdpi_mon_icone_round.png.flat",
         "source": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-main-27:\\mipmap-hdpi\\mon_icone_round.png"
+    },
+    {
+        "merged": "com.example.projet_s4.app-merged_res-25:/layout_activity_jeu_principal.xml.flat",
+        "source": "com.example.projet_s4.app-main-27:/layout/activity_jeu_principal.xml"
     },
     {
         "merged": "C:\\Users\\felix\\.gradle\\daemon\\7.3.3\\com.example.projet_s4.app-merged_res-25:\\mipmap-anydpi-v26_mon_icone.xml.flat",

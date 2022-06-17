@@ -42,7 +42,7 @@
 
           "text" : "Tourner a gauche",
           "valuesToModify" : {},
-          "nextCard" : ["generic", "combat"],
+          "nextCard" : ["combat"],
           "needed" : [],
           "endProgress" : {
             "slugEnd" : 5,
@@ -53,7 +53,7 @@
         "B_2": {
           "text" : "Tourner a droite",
           "valuesToModify" : {},
-          "nextCard" : ["generic", "combat"],
+          "nextCard" : ["enigma"],
           "needed": [],
           "endProgress" : {
             "slugEnd": 5,
@@ -600,7 +600,7 @@
       "id": "CARD_ENIGMA_1",
       "image": "enigme_final",
       "text": "Vous tombez nez-a-nez avec un homme etrange. Celui s'arrete et vous regarde attentivement : 'Dites-moi jeune aventurier, un lapin fait naitre 7 autres en une semaine. Supposons que les lapins se reproduisent une fois par semaine le lundi matin et que leurs croissance se termine le dimanche soir, au bout 5 semaines, combien de lapins y'aura t-il :'",
-      "type": "none",
+      "type": "enigma",
       "options": {
 
         "B_1": {

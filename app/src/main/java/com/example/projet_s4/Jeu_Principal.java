@@ -104,19 +104,35 @@ public class Jeu_Principal extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        try {
-            button1.setText("");
-            button2.setText("");
-            button3.setText("");
-            button4.setText("");
-            button1.setText(currentCard.getJSONObject("options").getJSONObject("B_1").getString("text"));
-            button2.setText(currentCard.getJSONObject("options").getJSONObject("B_2").getString("text"));
-            button3.setText(currentCard.getJSONObject("options").getJSONObject("B_3").getString("text"));
-            button4.setText(currentCard.getJSONObject("options").getJSONObject("B_4").getString("text"));
 
+        button1.setVisibility(View.VISIBLE);
+        button2.setVisibility(View.VISIBLE);
+        button3.setVisibility(View.VISIBLE);
+        button4.setVisibility(View.VISIBLE);
+
+        try {
+            button1.setText(currentCard.getJSONObject("options").getJSONObject("B_1").getString("text"));
         } catch (JSONException e) {
-            e.printStackTrace();
+            button1.setVisibility(View.INVISIBLE);
         }
+        try {
+            button2.setText(currentCard.getJSONObject("options").getJSONObject("B_2").getString("text"));
+        } catch (JSONException e) {
+            button2.setVisibility(View.INVISIBLE);
+        }
+        try {
+            button3.setText(currentCard.getJSONObject("options").getJSONObject("B_3").getString("text"));
+        } catch (JSONException e) {
+            button3.setVisibility(View.INVISIBLE);
+        }
+        try {
+            button4.setText(currentCard.getJSONObject("options").getJSONObject("B_4").getString("text"));
+        } catch (JSONException e) {
+            button4.setVisibility(View.INVISIBLE);
+        }
+
+
+
     }
 
     private void updateStats (){
@@ -148,6 +164,7 @@ public class Jeu_Principal extends AppCompatActivity {
         try {//consequences of the button pressed (inside the "B_1" : {...}
             consequences = currentCard.getJSONObject("options").getJSONObject(buttonSelected.getContentDescription().toString());
         } catch (JSONException e) {
+
             e.printStackTrace();
         }
 
