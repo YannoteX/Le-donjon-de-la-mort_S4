@@ -637,7 +637,7 @@
           "text": "Aucune de ces réponses",
           "valuesToModify": {
           },
-          "nextCard": ["CARD_ENIGMA_SUCCESS"],
+          "nextCard": ["CARD_ENIGMA_CORRECT"],
           "needed": [],
           "endProgress": {
           }

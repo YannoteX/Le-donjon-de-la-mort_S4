@@ -81,7 +81,7 @@
 
           "text" : "Suivant",
           "valuesToModify" : {
-            "enemyHealth" : 300
+            "enemyHealth" : 200
           },
           "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
@@ -637,7 +637,7 @@
           "text": "Aucune de ces réponses",
           "valuesToModify": {
           },
-          "nextCard": ["CARD_ENIGMA_SUCCESS"],
+          "nextCard": ["CARD_ENIGMA_CORRECT"],
           "needed": [],
           "endProgress": {
           }
@@ -649,8 +649,8 @@
     "slugEnd": 0,
     "happyEnd": 0,
     "fameEnd":0,
-    "enemyHealth": 300,
-    "playerHealth": 100,
+    "enemyHealth": 0,
+    "playerHealth": 300,
     "gold": 0,
     "attack":20,
     "defense": 20
