@@ -78,7 +78,7 @@ public class Modele {
         return playerStat;
     }
 
-    public JSONObject SendInfo(String cardToGet) throws JSONException{
+    public JSONObject sendInfo(String cardToGet) throws JSONException{
         JSONObject viewInfo = new JSONObject();
         if (cardToGet.toUpperCase().equals(cardToGet)){
             viewInfo.put("card", this.getCardById(cardToGet));

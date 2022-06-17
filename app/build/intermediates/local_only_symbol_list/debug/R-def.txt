@@ -50,7 +50,6 @@ id choix4
 id imageJeu
 id imageView
 id linearLayout
-id linearLayout2
 id play_button
 id pv
 id textView2

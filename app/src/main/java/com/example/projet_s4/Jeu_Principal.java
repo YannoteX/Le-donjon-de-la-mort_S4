@@ -9,11 +9,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
+
 import modele.Modele;
 
 
@@ -45,18 +48,8 @@ public class Jeu_Principal extends AppCompatActivity {
         button4 = (Button) findViewById(R.id.choix4);
         textField = (TextView) findViewById(R.id.textView2);
         ilustration = findViewById(R.id.imageJeu);
-        currentCard = modele.getCardById("CARD_CORRIDOR");
-        try {
-            button1.setText(currentCard.getJSONObject("options").getJSONObject("B_1").getString("text"));
-            button2.setText(currentCard.getJSONObject("options").getJSONObject("B_2").getString("text"));
-            button3.setText(currentCard.getJSONObject("options").getJSONObject("B_3").getString("text"));
-            button4.setText(currentCard.getJSONObject("options").getJSONObject("B_4").getString("text"));
-            textField.setText("COUCOU");
-            ilustration.setImageResource(Integer.parseInt(currentCard.getString("image")));
-
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        currentCard = modele.getCardById("CARD_ENTER_DUNJEON");
+        updateCard();
 
 
     }
@@ -75,9 +68,84 @@ public class Jeu_Principal extends AppCompatActivity {
         buttonPressed(button4);
     }
 
-    private void buttonPressed (Button buttonSelected){
-        Log.d("COUCOU", buttonSelected.getContentDescription().toString());
+    private void updateCard (){
+        /*
+        Change text, buttons and picture depending on the currentCard
+         */
+        try {
+            ilustration.setImageResource(getResources().getIdentifier(currentCard.getString("image"),"drawable",getPackageName()));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            textField.setText(currentCard.getString("text"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            button1.setText("");
+            button2.setText("");
+            button3.setText("");
+            button4.setText("");
+            button1.setText(currentCard.getJSONObject("options").getJSONObject("B_1").getString("text"));
+            button2.setText(currentCard.getJSONObject("options").getJSONObject("B_2").getString("text"));
+            button3.setText(currentCard.getJSONObject("options").getJSONObject("B_3").getString("text"));
+            button4.setText(currentCard.getJSONObject("options").getJSONObject("B_4").getString("text"));
 
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private void buttonPressed (Button buttonSelected){
+        JSONObject consequences = new JSONObject();
+        JSONObject cardAndPlayerStat = new JSONObject();
+        JSONObject nextCard = new JSONObject();
+        JSONArray tabNextCards = new JSONArray();
+        String nextCardId = null;
+
+        try {
+            consequences = currentCard.getJSONObject("options").getJSONObject(buttonSelected.getContentDescription().toString());
+        } catch (JSONException e) {
+            Log.d("BOUDIN", "consequences");
+            e.printStackTrace();
+        }
+
+
+        try {
+            tabNextCards = consequences.getJSONArray("nextCard");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            nextCardId = tabNextCards.getString(ThreadLocalRandom.current().nextInt(tabNextCards.length()));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(nextCardId);
+
+
+
+
+
+        //________________________________
+        try {
+            cardAndPlayerStat = modele.sendInfo(nextCardId);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            currentCard = cardAndPlayerStat.getJSONObject("card");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+        updateCard();
 
 
         //sumValue(String name, int secondValue)
