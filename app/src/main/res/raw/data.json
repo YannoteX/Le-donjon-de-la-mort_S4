@@ -2,35 +2,6 @@
   "datas" : {
     "cards" : [
 
-      {
-        "id": "CARD_ENTER_DUNJEON",
-        "image": "entrer_final",
-        "text" : "Vous ajustez la visiere de votre heaume. Vous la voyez : la porte du donjon de la mort. On raconte que quiconque y penetre devra affronter dangers, pieges mortelles et fléaux. Mais que le heros capable de sauver la princesse des griffes du terrible dragon cache en ces lieux, se verra offrir gloire et fortune jusqu'a la fin de ses jours. Pret a en decoudre, vous avancez d'un pas lourd vers la porte, et regardez probablement pour la derniere fois la magnifique clairiere qui surplombe le paysage derriere vous.",
-        "type" : "start",
-        "options" : {
-
-          "B_1" : {
-
-            "text" : "Entrer dans le donjon",
-            "valuesToModify" : {
-            },
-            "nextCard" : ["generic"],
-            "needed": [],
-            "endProgress" : {
-            }
-          },
-
-          "B_2": {
-          },
-
-          "B_3": {
-          },
-
-          "B_4": {
-          }
-        }
-      },
-
      {
       "id": "CARD_CORRIDOR",
       "image": "couloir_final",
@@ -81,7 +52,7 @@
 
           "text" : "Suivant",
           "valuesToModify" : {
-            "enemyHealth" : 300
+            "enemyHealth": 300
           },
           "nextCard" : ["CARD_ENEMY_COMBAT"],
           "needed": [],
@@ -649,7 +620,7 @@
     "slugEnd": 0,
     "happyEnd": 0,
     "fameEnd":0,
-    "enemyHealth": 300,
+    "enemyHealth": 0,
     "playerHealth": 300,
     "gold": 0,
     "attack":20,
