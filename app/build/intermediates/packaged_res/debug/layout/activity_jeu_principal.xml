@@ -98,76 +98,81 @@
 
     <ImageView
         android:id="@+id/imageJeu"
-        android:layout_width="270dp"
-        android:layout_height="235dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="66dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintDimensionRatio="110:110"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:layout_constraintVertical_weight="4"
         app:srcCompat="@drawable/enigme_final" />
 
     <Button
         android:id="@+id/choix1"
-        android:layout_width="156dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="5dp"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
         android:contentDescription="B_1"
         android:onClick="button1Selected"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/choix3"
         app:layout_constraintEnd_toStartOf="@+id/choix2"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/choix2"
-        android:layout_width="156dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="5dp"
-        android:contentDescription="B_2"
-        android:onClick="button2Selected"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/choix4"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/choix3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/choix3"
-        android:layout_width="156dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
         android:contentDescription="B_3"
         android:onClick="button3Selected"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/choix4"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choix1" />
+
+    <Button
+        android:id="@+id/choix2"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
+        android:contentDescription="B_2"
+        android:onClick="button2Selected"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/choix1"
+        app:layout_constraintEnd_toEndOf="@+id/choix4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choix1"
+        app:layout_constraintStart_toStartOf="@+id/choix4"
+        app:layout_constraintTop_toTopOf="@+id/choix1" />
 
     <Button
         android:id="@+id/choix4"
-        android:layout_width="156dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="145dp"
+        android:layout_height="70dp"
         android:contentDescription="B_4"
         android:onClick="button4Selected"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/choix3"
+        app:layout_constraintTop_toBottomOf="@+id/choix2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
-        android:layout_height="109dp"
+        android:layout_height="0dp"
         android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="6dp"
         android:layout_marginBottom="10dp"
         android:autoSizeMaxTextSize="13dp"
@@ -176,14 +181,16 @@
         android:background="@drawable/fond_texte"
         android:fontFamily="@font/cinzel_decorative_bold"
         android:paddingTop="10dp"
+
         android:paddingBottom="10dp"
         android:text="coucou"
-
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/choix1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageJeu"
+        app:layout_constraintVertical_weight="2"
         tools:ignore="MissingConstraints,TextContrastCheck" />
 
 
